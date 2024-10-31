@@ -1,0 +1,24 @@
+services:
+  db_test:
+    image: postgres:16
+    volumes:
+      - test_postgres_data:/var/lib/postgresql/data
+    container_name: db_app_test
+    command: -p 6000
+    expose:
+      - 6000
+    env_file:
+      - .env-prod
+
+  app_test:
+    build:
+      context: .
+    env_file:
+      - .env-prod
+    container_name: fastapi_app_test
+    command: ["pytest", "-v", "--tb=short", "tests"]
+    depends_on:
+      - db_test
+
+volumes:
+  test_postgres_data:
