@@ -8,7 +8,7 @@
   <li><b>Управление членством в канале:</b> Модераторы или владельцы каналов могут добавлять пользователей в канал и удалять их.</li>
   <li><b>Управление сообщениями:</b> Участники канала и модератор могут общаться в каналах в реальном времени, а так же просматривать историю сообщений.</li>
 </ol>
-<img src="[https://raw.githubusercontent.com/morozov831/fastapi_ecommerce/master/image.png](https://github.com/morozov831/fastapi_atomchat/blob/master/image.png)">
+<img src="https://raw.githubusercontent.com/morozov831/fastapi_ecommerce/master/image.png">
 <h2>Используемые технологии</h2>
 <ol>
   <li><b>FastAPI</b>: Современный, быстрый веб-фреймворк для разработки API на Python 3.7+, основанный на стандартных подсказках типов Python.</li>
