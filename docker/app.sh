@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 alembic upgrade head
 
 python seed.py
