@@ -89,23 +89,26 @@
     <li>Статус заявки: <strong>pending (ожидание обработки)</strong></li>
 </ul>
 
-<p>Далее перейдите к документации Swagger по адресу <a href="http://localhost:8000/docs">http://localhost:8000/docs</a>, чтобы взаимодействовать с API.</p>
-<p>Для остановки проекта:</p>
-   
+<p><strong>Далее перейдите к документации Swagger по адресу:</strong> <a href="http://localhost:8000/docs">http://localhost:8000/docs</a> для взаимодействия с API.</p>
+
+<h3>Остановка проекта:</h3>
+<p>Чтобы остановить контейнеры Docker и удалить их, запустите следующую команду:</p>
+<pre><code>docker compose -f docker-compose.yaml down -v</code></pre>
+
 <h3>Запуск тестов:</h3>
-1. Запустите следующую команду для сборки образов, создадия и запуска контейнеров:
-   ```bash
-   docker compose -f docker-compose.tests.yaml up  --build
-   ```
-### Для остановки тестов:
+<ol>
+    <li>Запустите следующую команду для сборки образов, создания и запуска контейнеров:
+        <pre><code>docker compose -f docker-compose.tests.yaml up --build</code></pre>
+    </li>
+</ol>
 
-1. Нажмите `Ctrl + C` в терминале, чтобы остановить запущенные контейнеры
-   Docker.
-
-2. Запустите следующую команду, чтобы остановить контейнеры Docker и удалить их:
-   ```bash
-   docker compose -f docker-compose.tests.yaml down -v
-   ```
+<h3>Для остановки тестов:</h3>
+<ol>
+    <li>Нажмите <strong>Ctrl + C</strong> в терминале, чтобы остановить запущенные контейнеры Docker.</li>
+    <li>Запустите следующую команду, чтобы остановить контейнеры Docker и удалить их:
+        <pre><code>docker compose -f docker-compose.tests.yaml down -v</code></pre>
+    </li>
+</ol>
 <h2>Лицензия</h2>
 Данный проект лицензирован по <a href="https://github.com/morozov831/fastapi_atomchat/blob/master/LICENSE">MIT license</a>.
 <h2>Обратная связь</h2>
