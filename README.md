@@ -66,30 +66,33 @@
 
 <h4>Созданные пользователи:</h4>
 <ul>
-    <li>Модератор: <strong>moderator (ID: 1)</strong></li>
-    <li>Создатель канала для программистов: <strong>programmer_creator (ID: 2)</strong></li>
-    <li>Создатель канала для дизайнеров: <strong>designer_creator (ID: 3)</strong></li>
-    <li>Пользователь, который вступил в канал для программистов: <strong>user_program (ID: 4)</strong></li>
-    <li>Пользователь, который вступил в канал для дизайнеров: <strong>user_design (ID: 5)</strong></li>
-    <li>Пользователь: <strong>user1 (ID: 6)</strong></li>
-    <li>Пользователь: <strong>user2 (ID: 7)</strong></li>
+    <li>Модератор: moderator (ID: 1)</li>
+    <li>Создатель канала для программистов: programmer_creator (ID: 2)</li>
+    <li>Создатель канала для дизайнеров: designer_creator (ID: 3)</li>
+    <li>Пользователь, который вступил в канал для программистов: user_program (ID: 4)</li>
+    <li>Пользователь, который вступил в канал для дизайнеров: user_design (ID: 5)</li>
+    <li>Пользователь: user1 (ID: 6)</li>
+    <li>Пользователь: user2 (ID: 7)</li>
 </ul>
 
 <h4>Созданные каналы:</h4>
 <ul>
-    <li>Канал для программистов: <strong>Программисты (ID: 1)</strong></li>
-    <li>Канал для дизайнеров: <strong>Дизайнеры (ID: 2)</strong></li>
+    <li>Канал для программистов: Программисты (ID: 1)</li>
+    <li>Канал для дизайнеров: Дизайнеры (ID: 2)</li>
 </ul>
 
 <h4>Заявка на присоединение:</h4>
 <ul>
-    <li>ID заявки: <strong>1</strong></li>
-    <li>Пользователь: <strong>user1</strong></li>
-    <li>Канал: <strong>Программисты</strong></li>
-    <li>Статус заявки: <strong>pending (ожидание обработки)</strong></li>
+    <li>ID заявки: 1</li>
+    <li>Пользователь: user1</li>
+    <li>Канал: Программисты</li>
+    <li>Статус заявки: pending (ожидание обработки)</li>
 </ul>
 
-<p><strong>Далее перейдите к документации Swagger по адресу:</strong> <a href="http://localhost:8000/docs">http://localhost:8000/docs</a> для взаимодействия с API.</p>
+<h4>Переход к документации Swagger:</h4>
+<p>Для взаимодействия с API перейдите по следующему адресу: 
+    <a href="http://localhost:8000/docs">http://localhost:8000/docs</a>
+</p>
 
 <h3>Остановка проекта:</h3>
 <p>Чтобы остановить контейнеры Docker и удалить их, запустите следующую команду:</p>
