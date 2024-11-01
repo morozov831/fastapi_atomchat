@@ -108,7 +108,7 @@
 <p>Для взаимодействия с API перейдите по следующему адресу: 
     <a href="http://localhost:8000/docs">http://localhost:8000/docs</a>
 </p>
-
+  
 <h3>Остановка проекта:</h3>
 <p>Чтобы остановить контейнеры Docker и удалить их, запустите следующую команду:</p>
 <pre><code>docker compose -f docker-compose.yaml down -v</code></pre>
