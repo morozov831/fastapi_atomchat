@@ -97,35 +97,39 @@
    pip install -r requirements.txt
    ```
 
-<h3>Запуск приложения:</h3>
+<h3>Запуск проекта</h3>
 <ol>
     <li>Убедитесь, что Docker и Docker Compose установлены на вашей системе.</li>
     <li>Запустите следующую команду для сборки образов, создания и запуска контейнеров:
         <pre><code>docker compose -f docker-compose.yaml up -d --build</code></pre>
     </li>
-    <li>После запуска контейнеров автоматически выполняются миграции и скрипт для создания тестовых данных <code>seed.py</code>.</li>
-<h4>Переход к документации Swagger:</h4>
+    <li>После запуска контейнеров автоматически выполняются миграции и скрипт создания тестовых данных <code>seed.py</code>.</li>
+</ol>
+
+<h4>Переход к документации Swagger</h4>
 <p>Для взаимодействия с API перейдите по следующему адресу: 
     <a href="http://localhost:8000/docs">http://localhost:8000/docs</a>
 </p>
-  
-<h3>Остановка проекта:</h3>
+
+<h3>Остановка проекта</h3>
 <p>Чтобы остановить контейнеры Docker и удалить их, запустите следующую команду:</p>
 <pre><code>docker compose -f docker-compose.yaml down -v</code></pre>
 
-<h3>Запуск тестов:</h3>
+<h3>Запуск тестов</h3>
 <ol>
     <li>Запустите следующую команду для сборки образов, создания и запуска контейнеров:
         <pre><code>docker compose -f docker-compose.tests.yaml up --build</code></pre>
     </li>
 </ol>
-<h3>Для остановки тестов:</h3>
+
+<h3>Остановка тестов</h3>
 <ol>
     <li>Нажмите <strong>Ctrl + C</strong> в терминале, чтобы остановить запущенные контейнеры Docker.</li>
     <li>Запустите следующую команду, чтобы остановить контейнеры Docker и удалить их:
         <pre><code>docker compose -f docker-compose.tests.yaml down -v</code></pre>
     </li>
 </ol>
+
 <h2>Лицензия</h2>
 Данный проект лицензирован по <a href="https://github.com/morozov831/fastapi_atomchat/blob/master/LICENSE">MIT license</a>.
 <h2>Обратная связь</h2>
